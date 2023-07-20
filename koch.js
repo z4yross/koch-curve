@@ -38,7 +38,7 @@ function windowResized() {
 }
 
 function koch(n) {
-    translate(PADDING, 3 * windowHeight / 4);
+    translate(PADDING, 8 * windowHeight / 9);
     kochRecursion(windowWidth - PADDING * 2, 0, n, 0, 0);
 }
 
